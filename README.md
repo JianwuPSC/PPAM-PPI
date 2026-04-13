@@ -7,7 +7,7 @@ PPAM-PPI (Protein-Pair predictor based on Protein Language Model) is a deep lear
 ## Getting started / installation
 To get started using PPAM-PPI, clone the repo:
 
-    git clone https://github.com/JianwuPSC/PPLM_PPI.git
+    git clone https://github.com/JianwuPSC/PPAM-PPI.git
     
 Conda Install PPAM-PPI
 
@@ -36,7 +36,7 @@ The model was trained on a balanced eukaryotic inter-species Protein-Protein Int
 
     python PPAM-PPI_main.py
     
-The trained model checkpoint for ​PPAM-PPI_1-1​ (balanced 1:1 positive-negative ratio variant) is stored at: https://huggingface.co/wj5/PPLM_PPI/blob/main/PPAM-PPI_1-1.ckpt
+The trained model checkpoint for ​PPAM-PPI_1-1​ (balanced 1:1 positive-negative ratio variant) is stored at: https://huggingface.co/wj5/PPLM_PPI/blob/main/PPLM-PPI_1-1.ckpt
 
 ##  Fine-tune PPAM-PPI using an unbalanced sampling
 PPAM-PPI models were fine-tuned using an unbalanced sampling strategy to address proteome-wide interaction sparsity. Three specialized variants were generated with progressively increasing negative-to-positive sample ratios: PPAM-PPI_1-5 (1:5), PPAM-PPI_1-10 (1:10), and PPAM-PPI_1-30 (1:30). These models are publicly available for download and inference through Hugging Face Hub at https://huggingface.co/wj5/PPLM_PPI.
