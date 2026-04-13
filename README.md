@@ -1,5 +1,5 @@
 # PPAM-PPI
-<img width="857" height="655" alt="model" src="https://github.com/JianwuPSC/PPAM-PPI/main/example/model.png" />
+<img width="857" height="655" alt="model" src="https://github.com/JianwuPSC/PPAM-PPI/tree/main/example/model.png" />
 
 A Deep Learning Framework for Cross-Species Genome-Scale Protein Protein Interaction
 ## Description
