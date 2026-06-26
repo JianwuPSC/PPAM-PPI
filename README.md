@@ -1,11 +1,11 @@
-# PPAM-PPI
+# PanPPI
 <img width="857" height="655" alt="model" src="https://github.com/JianwuPSC/PPAM-PPI/tree/main/example/model.png" />
 
 A Deep Learning Framework for Cross-Species Genome-Scale Protein Protein Interaction
 ## Description
-PPAM-PPI (Protein-Pair predictor based on Protein Language Model) is a deep learning framework that integrates a fine-tuned protein language model (PLM) with contrastive learning. It was trained on a large-scale, cross-species eukaryotic protein-protein interaction (PPI) dataset containing 3.4 million high-confidence positive pairs and actively generated negative samples. An imbalanced training strategy was employed to model the inherent sparsity of proteome-wide interactions. This framework is designed for predicting protein-protein interactions and is based on a specialized protein language model that incorporates a hybrid attention mechanism to handle both intra-protein and inter-protein residue interactions. The model achieves superior performance on PPI prediction tasks across multiple species benchmarks
+PanPPI is a deep learning framework that integrates a fine-tuned protein language model (PLM) with contrastive learning. It was trained on a large-scale, cross-species eukaryotic protein-protein interaction (PPI) dataset containing 3.4 million high-confidence positive pairs and actively generated negative samples. An imbalanced training strategy was employed to model the inherent sparsity of proteome-wide interactions. This framework is designed for predicting protein-protein interactions and is based on a specialized protein language model that incorporates a hybrid attention mechanism to handle both intra-protein and inter-protein residue interactions. The model achieves superior performance on PPI prediction tasks across multiple species benchmarks
 ## Getting started / installation
-To get started using PPAM-PPI, clone the repo:
+To get started using PanPPI, clone the repo:
 
     git clone https://github.com/JianwuPSC/PPAM-PPI.git
     
